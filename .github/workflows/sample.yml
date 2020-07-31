@@ -8,7 +8,7 @@ jobs:
     - name: debug
       run: echo "::debug::Set the Octocat variable"
     - name: warning
-      run: echo "::warning file=sample/Sample.swift,line=10,col=12::[Spacing]: remove 1 space"
+      run: echo "::warning file=sample/Sample.swift,line=10,col=12::[Spacing] remove 1 space"
     - name: error
       run: echo "::error file=sample/Sample.swift,line=11::STring is not defined"
     - name: set-env
